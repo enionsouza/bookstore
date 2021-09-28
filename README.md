@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://www.microverse.org/">
+    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
+  </a>
+  <a href="https://github.com/enionsouza/bookstore">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/enionsouza/bookstore/develop?color=blue&style=flat-square">
+  </a>
+  <a href="https://github.com/enionsouza/bookstore">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/enionsouza/bookstore?color=cyan&label=%E2%98%85%20stars%20&style=flat-square">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Bookstore
 
-In the project directory, you can run:
+## About
 
-### `yarn start`
+The Bookstore is a website similar to the ["Awesome Books"](https://github.com/VanessaAoki/AwesomeBooks/) website built in the previous Microverse module (see [live version](https://rawcdn.githack.com/VanessaAoki/AwesomeBooks/3ca746caa2332a3bc69bb2846545a09298e8045f/index.html)). My goal here is to create an MVP version of it that allows the user to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-    Display a list of books.
+-    Add a book.
+-    Remove a selected book.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+By building this application, I will learn how to use React and Redux.
 
-### `yarn test`
+Below, a screenshot of each page of the app is presented.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**TBA**
 
-### `yarn build`
+<!-- <p align="center">
+    <img alt="Home Page" style="border: 1px solid black;" src="./docs/Screenshot1.png" width="700">
+</p> -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML, CSS, JavaScript;
+- ReactJS, ReduxJS;
+- VisualStudio Code, Git, & GitHub;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Pre-requisites
 
-### `yarn eject`
+- NodeJs (v. 14.17)
+- YarnJs (v. 1.22.10)
+- Git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- ## Live Demo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Live demos for this project can be found on the following Cloud Platforms:
+- [Heroku](https://bookstore-enionsouza.herokuapp.com/),
+- [Netlify](https://bookstore-enionsouza.netlify.app), and
+- [GitHub Pages](https://enionsouza.github.io/bookstore/). -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Getting Started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To run this project, you only need a computer with a browser installed, and follow these steps:
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+git clone git@github.com:enionsouza/bookstore.git
+```
 
-### Code Splitting
+2. Now that you have already cloned the repo run the following commands to get the project up and running:
+```sh
+cd bookstore
+yarn
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
+👤 **Ênio Neves de Souza**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [@enionsouza](https://github.com/enionsouza)
+- Twitter: [@enionsouza](https://twitter.com/enionsouza)
+- LinkedIn: [Enio Neves de Souza](https://www.linkedin.com/in/enio-neves-de-souza/)
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues, and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page](https://github.com/enionsouza/bookstore/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 License
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
