@@ -27,17 +27,20 @@ const Books = () => {
       <ul>
         {books.map((book) => (
           <li key={book.id}>
-            {book.title}
-            {' '}
-            by
-            {' '}
-            {book.author}
+            <span>
+              {book.title}
+              {' '}
+              by
+              {' '}
+              {book.author}
+            </span>
             <button type="button" onClick={() => removeBookAction(book.id)}>Remove</button>
           </li>
         ))}
       </ul>
       <form>
-        <input type="text" />
+        <input type="text" name="bookTitle" placeholder="Add a title..." />
+        <input type="text" name="bookAuthor" placeholder="Add an author name..." />
         <button type="submit" onClick={() => createBookAction(newBook)}>Submit</button>
       </form>
     </>
