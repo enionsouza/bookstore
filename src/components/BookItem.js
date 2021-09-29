@@ -24,7 +24,7 @@ function BookItem({ title, author, bookId }) {
 BookItem.propTypes = {
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  bookId: PropTypes.number.isRequired,
+  bookId: PropTypes.string.isRequired,
 };
 
 export default BookItem;
