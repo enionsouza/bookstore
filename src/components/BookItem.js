@@ -8,7 +8,7 @@ function BookItem({ title, category, bookId }) {
   const dispatch = useDispatch();
   const removeBookAction = bindActionCreators(removeBook, dispatch);
   return (
-    <div className="book-item">
+    <div className="book-item flex">
       <div className="book-item-panel-1">
         <div className="flex flex-dir-col">
           <span className="category">
@@ -51,7 +51,7 @@ function BookItem({ title, category, bookId }) {
           </ul>
         </div>
       </div>
-      <div className="book-item-panel-2">
+      <div className="book-item-panel-2 flex">
         <svg viewBox="0 0 36 36" className="circular-chart">
           <path
             className="circle-bg"
@@ -72,7 +72,7 @@ function BookItem({ title, category, bookId }) {
           <div className="completed">completed</div>
         </div>
       </div>
-      <div className="book-item-panel-3">
+      <div className="book-item-panel-3 flex">
         <div className="chapter-label">CURRENT CHAPTER</div>
         <div className="current-chapter">Chapter 1</div>
         <button
