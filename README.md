@@ -23,13 +23,11 @@ The Bookstore is a website similar to the ["Awesome Books"](https://github.com/V
 
 By building this application, I will learn how to use React and Redux.
 
-Below, a screenshot of each page of the app is presented.
+A screenshot of the Books page of the app is presented below:
 
-**TBA**
-
-<!-- <p align="center">
-    <img alt="Home Page" style="border: 1px solid black;" src="./docs/Screenshot1.png" width="700">
-</p> -->
+<p align="center">
+    <img alt="Home Page" style="border: 1px solid black;" src="./docs/screenshot.png" width="700">
+</p>
 
 ## Built With
 
