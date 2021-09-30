@@ -16,8 +16,8 @@ const Books = () => {
   }, []);
 
   return (
-    <>
-      <ul>
+    <main className="main-container">
+      <ul className="book-list">
         {Object.keys(books).map((id) => (
           <li key={id}>
             <BookItem title={books[id][0].title} category={books[id][0].category} bookId={id} />
@@ -25,7 +25,7 @@ const Books = () => {
         ))}
       </ul>
       <FormAddBook />
-    </>
+    </main>
   );
 };
 

@@ -6,7 +6,7 @@ import store from './redux/configureStore';
 import NavBar from './components/NavBar';
 import Books from './pages/books';
 import Categories from './pages/categories';
-import './components/index.css';
+import './styles/index.css';
 
 ReactDOM.render(
   <React.StrictMode>
