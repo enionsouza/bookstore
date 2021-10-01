@@ -38,15 +38,13 @@
   font-stretch: normal;
 }
 
+#root {
+  max-width: 1000px;
+  margin: auto;
+}
+
 :root {
-  --bubble-gum-pink: #ff5ab7;
-  --pinkish-grey: #c4c4c4;
-  --black: #000;
-  --black-5: rgba(0, 0, 0, 0.05);
-  --pale-grey: #f5f6fa;
   --azure: #0290ff;
-  --medium-blue: #307bbe;
-  --dodger-blue: #379cf6;
   --white: #e8e8e8;
 }
 
@@ -80,7 +78,7 @@
   width: 87.5rem;
   height: 5.938rem;
   margin: 0 0 2.375rem;
-  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  padding: 1.438rem 4rem 1.688rem 4rem;
   background-color: #fff;
 }
 
@@ -123,8 +121,9 @@
   width: 2.5rem;
   padding: 0.875rem;
   border: solid 1px rgba(128, 128, 128, 0.678);
-  margin: 0 1rem 2.375rem;
+  margin: 0 3rem 2.375rem 1rem;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .Mask {
@@ -151,10 +150,11 @@
   border: solid 1px var(--white);
   background-color: #fff;
   margin: 10px auto;
+  min-width: 700px;
 }
 
 .book-item-panel-1 {
-  width: 40%;
+  width: 50%;
 }
 
 .book-item-panel-2 {
@@ -163,10 +163,10 @@
 }
 
 .book-item-panel-3 {
-  width: 40%;
+  width: 30%;
   flex-direction: column;
   justify-content: center;
-  padding-left: 5%;
+  padding: 0 5%;
   margin: auto;
 }
 
@@ -262,7 +262,7 @@
 }
 
 .chapter-label {
-  margin: 0.063rem 5.375rem 0 3.688rem;
+  margin: 0.063rem 0 0 3.688rem;
   opacity: 0.5;
   font-family: RobotoSlab, sans-serif;
   font-size: 0.813rem;
