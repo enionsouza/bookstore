@@ -15,15 +15,13 @@
 
 ## About
 
-The Bookstore is a website similar to the ["Awesome Books"](https://github.com/VanessaAoki/AwesomeBooks/) website built in the previous Microverse module (see [live version](https://rawcdn.githack.com/VanessaAoki/AwesomeBooks/3ca746caa2332a3bc69bb2846545a09298e8045f/index.html)). My goal here is to create an MVP version of it that allows the user to:
+The Bookstore is a website similar to the ["Awesome Books"](https://github.com/VanessaAoki/AwesomeBooks/) website built in the previous Microverse module, with pure JavaScript (see [live version](https://rawcdn.githack.com/VanessaAoki/AwesomeBooks/3ca746caa2332a3bc69bb2846545a09298e8045f/index.html)). My goal here is to create an MVP version of it, using ReactJS and Redux, to allow the user to:
 
--    Display a list of books.
--    Add a book.
--    Remove a selected book.
+-    Display a list of books (accessing the 'bookstore' API provided by Microverse).
+-    Add a book ('ADD BOOK' button).
+-    Remove a selected book ('Remove' link).
 
-By building this application, I will learn how to use React and Redux.
-
-A screenshot of the Books page of the app is presented below:
+A screenshot of the Books page is presented below:
 
 <p align="center">
     <img alt="Home Page" style="border: 1px solid black;" src="./docs/screenshot.png" width="700">
@@ -41,12 +39,9 @@ A screenshot of the Books page of the app is presented below:
 - YarnJs (v. 1.22.10)
 - Git
 
-<!-- ## Live Demo
+## Live Demo
 
-Live demos for this project can be found on the following Cloud Platforms:
-- [Heroku](https://bookstore-enionsouza.herokuapp.com/),
-- [Netlify](https://bookstore-enionsouza.netlify.app), and
-- [GitHub Pages](https://enionsouza.github.io/bookstore/). -->
+A live demo for this project can be found in [this link](https://bookstore-mvp-react-redux-enionsouza.netlify.app).
 
 ## Getting Started
 
